@@ -37,7 +37,7 @@ bool CLinuxMsgQueue::recvMsg(unsigned int &m_msg_code,void *&p_msg)
    
 	if (m_queue.empty()) {
 	    
-
+		p_mutex->UnLock();
 	    	return false;
 	    
 	}
