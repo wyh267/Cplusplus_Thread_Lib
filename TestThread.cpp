@@ -48,6 +48,7 @@ void TestThread::mainLoop()
 void TestThread::setMsgQueue(CMsgQueue *q)
 {
 	p_msg_rev=q;
+int 1;
 }
 
 
