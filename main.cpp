@@ -15,9 +15,7 @@
 
 int main()
 {
-
 	CMsgQueue *q=COperatingSystemFactory::newMsgQueue("B to A message Queue");
-
 	
 	TestThread *a=new TestThread("A");
 	TestThreadB *b=new TestThreadB("B");
@@ -28,11 +26,7 @@ int main()
 	a->run();
 	b->run();
 
-
-	while(1)
-		;
-
-
+	while(1);
 }
 
 
