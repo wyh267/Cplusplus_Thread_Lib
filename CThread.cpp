@@ -12,6 +12,7 @@
 #include <unistd.h>
 #include <assert.h>
 
+# Here comes tomyca, I just test how to use how to cooperate, thanks for you contributions.
 
 CThread::CThread(const char *m_thread_name)
 {
