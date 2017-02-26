@@ -27,6 +27,7 @@ int main()
 
 	a->run();
 	b->run();
+	cout>>1;
 
 
 	while(1)
